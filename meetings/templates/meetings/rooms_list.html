@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="/static/meetings/rooms_list.css" />
+    <title>Meeting Rooms</title>
+</head>
+
+<body>
+    <div class="content">
+        <h1>Meeting Rooms</h1>
+
+        <div class="rooms">
+            <ul>
+                {% for room in rooms %}
+                <li>{{ room }}</li>
+                {% endfor %}
+            </ul>
+
+            <a href="{% url 'home' %}">HOME</a>
+        </div>
+    </div>
+</body>
+
+</html>

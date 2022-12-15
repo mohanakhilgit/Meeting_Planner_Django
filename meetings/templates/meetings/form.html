@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="/static/meetings/form.css">
+  <title>New Meetings</title>
+</head>
+
+<body>
+  <div class="content">
+    <h1>Plan a New Meeting</h1>
+
+    <form method="POST">
+      <table>
+        {{ form }}
+      </table>
+      
+      {% csrf_token %}
+      <button type="submit">CREATE</button>
+    </form>
+  </div>
+</body>
+
+</html>

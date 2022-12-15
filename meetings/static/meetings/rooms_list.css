@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    height: 110vh;
+    background-image: url(rooms_list.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    color: white;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    font-size: 60px;
+    font-weight: 100;
+    margin: 25px;
+    text-align: center;
+}
+
+ul {
+    height: 450px;
+    overflow: auto;
+    padding: 16px;
+    margin: 20px 0 40px 0;
+}
+
+li {
+    list-style: none;
+    font-size: 25px;
+    margin: 25px 0;
+    word-wrap: 2px;
+    letter-spacing: 2px;
+}
+
+a {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    border: 1px solid white;
+    padding: 15px 25px;
+    margin-bottom: 100px;
+}
+
+.content {
+    background-color: rgba(55, 67, 68, 0.85);
+    padding: 40px;
+    width: 800px;
+    height: 110vh;
+}
+
+.rooms {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
